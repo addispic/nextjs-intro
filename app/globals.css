@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+/* scroll bar */
+::-webkit-scrollbar {
+  width: 0;
+  display: none;
+}
+
 
 body {
   color: rgb(var(--foreground-rgb));
